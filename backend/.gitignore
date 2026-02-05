@@ -14,3 +14,12 @@ outputs/
 
 # macOS
 .DS_Store
+
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata

@@ -102,7 +102,7 @@ class HomeScreen extends StatelessWidget {
     );
 
     try {
-      // Android Emulator → Mac localhost
+      // LOCAL FLASK BACKEND
       final uri = Uri.parse("http://10.0.2.2:5000/convert");
 
       final request = http.MultipartRequest('POST', uri);
