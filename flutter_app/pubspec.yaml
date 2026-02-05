@@ -1,0 +1,59 @@
+name: winzaap
+description: "WINZAAP - Image to PDF & OCR App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  http: ^1.2.0
+  file_picker: ^8.0.0
+
+  # 📷 Image picking (multiple images)
+  image_picker: ^1.0.7
+
+  # 📄 PDF generation
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  shared_preferences: ^2.2.15
+
+  # 🔍 OCR (Text Recognition)
+  google_mlkit_text_recognition: ^0.13.0
+
+  # 📁 File paths & storage
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # 📂 Open PDFs
+  open_filex: ^4.4.0
+
+  # 🔥 Firebase
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # 🎨 App launcher icon
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+# 🚀 Launcher icon configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: assets/app_icon.png

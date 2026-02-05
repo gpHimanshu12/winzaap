@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "765407091224",
+    "project_id": "winzaap-3b4b9",
+    "storage_bucket": "winzaap-3b4b9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765407091224:android:0740415c4f29b64d9d816d",
+        "android_client_info": {
+          "package_name": "com.example.winzaap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTxH6nlg8kYEzOb1RuF_LcoAKAhot1sXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
