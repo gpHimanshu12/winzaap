@@ -12,7 +12,7 @@ Winzaap is a mobile PDF utility app built using **Flutter** with a **Flask backe
 
 winzaap/
 ├── flutter_app/   # Flutter mobile application
-└── backend/       # Flask API (LibreOffice based converter)
+└── backend/       # Flask API (Cloudconvert globally based converter)
 
 ## Backend
 - Flask
