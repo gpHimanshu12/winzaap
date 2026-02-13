@@ -16,17 +16,10 @@ winzaap/
 
 ## Backend
 - Flask
-- LibreOffice (headless)
-- Converts DOC/DOCX/PPT/PPTX to PDF locally
+- Cloudconvert
+- Converts DOC/DOCX/PPT/PPTX to PDF globally through Render
 
 ## Frontend
 - Flutter
 - Firebase Authentication
 - Saves PDFs inside app storage
-
-## How to run backend locally
-
-```bash
-cd backend
-source venv/bin/activate
-python app.py
